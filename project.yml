@@ -37,9 +37,13 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
         INFOPLIST_KEY_NSCameraUsageDescription: "Para ler o código QR das faturas."
         TARGETED_DEVICE_FAMILY: "1"
-        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
+        ASSETCATALOG_COMPILER_APPICON_NAME: iPhoneAppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
         SWIFT_VERSION: "5.0"
         CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 97Y5P84XPJ
   EfacturaSimplesMac:
     type: application
     platform: macOS
@@ -55,6 +59,8 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: e-Fatura Simples
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
         ENABLE_APP_SANDBOX: NO
         ENABLE_HARDENED_RUNTIME: NO
         CODE_SIGN_IDENTITY: "Apple Development"

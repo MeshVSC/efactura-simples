@@ -18,7 +18,7 @@ struct LoginView: View {
         ScrollView {
             VStack(spacing: 20) {
                 VStack(spacing: 14) {
-                    Image("EfaturaLogo")
+                    Image("AppMark")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 110, height: 110)

@@ -33,6 +33,7 @@
 		79AEDABD83AE5DA550C2F786 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C88E48D08BAD30DC0A1E60 /* HTML.swift */; };
 		7BC0854B8D74EF01DD161ADD /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */; };
 		7E83D73DD1D8FF0DBDFFE994 /* MacRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEF84725E984AFFC760BC8 /* MacRootView.swift */; };
+		9B8C08FC844E5F4835B52CAB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB05C80A4288BCE599D90C /* PrivacyInfo.xcprivacy */; };
 		9C23B67BAAEE87AA79258741 /* InvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7618E653994097E6796842 /* InvoicesView.swift */; };
 		A0F913A042218C67E4D47ABF /* RegisterInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBAB46CCFD7FB0E54BD331E /* RegisterInvoiceView.swift */; };
 		A2BB200E5ED7E4E20DBBDB58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E75EDE21E49CD1B75102E /* Keychain.swift */; };
@@ -45,6 +46,7 @@
 		BD95E0F1A2C2138E92253BDE /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C165E0FC012E482892B774 /* PendingView.swift */; };
 		BF01D5AABEBEF9D3A8BB06BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2D1FE2A3F827BF63DEA13 /* Models.swift */; };
 		C0AA718C0DF819D26D03CC4E /* EfacturaSimplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */; };
+		C32138123ECB2913D29B2C9E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB05C80A4288BCE599D90C /* PrivacyInfo.xcprivacy */; };
 		CBA31BEFE89740B18B7A0147 /* TaxProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BCF77D7051CDFBFC99790 /* TaxProfileView.swift */; };
 		CC9455798C6CF3A9B457A5F4 /* InvoiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7E909EFD1AB766C16A09C /* InvoiceDetailView.swift */; };
 		CE8C5B02EC9C9BF72D420789 /* TaxRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */; };
@@ -62,6 +64,7 @@
 		0F7E5302DFB57F099F73F025 /* RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderApp.swift; sourceTree = "<group>"; };
 		130A1081AC87CBDE330C04BF /* MacSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSummaryView.swift; sourceTree = "<group>"; };
 		17574C23B661749A2299C543 /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACB05C80A4288BCE599D90C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		27A9703C34E15CCBCD6F4BCA /* EfacturaSimplesMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EfacturaSimplesMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxRules.swift; sourceTree = "<group>"; };
 		42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 			children = (
 				5834D65BC891C36FA52E256A /* Assets.xcassets */,
 				56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */,
+				1ACB05C80A4288BCE599D90C /* PrivacyInfo.xcprivacy */,
 				B98793228A3D9CC0FFB49175 /* Portal */,
 				9404876775D9D490CEC1630E /* Store */,
 				3F619A85B6836405C83E624A /* Views */,
@@ -245,6 +249,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					66EE664BE3960317BB01A68A = {
+						DevelopmentTeam = 97Y5P84XPJ;
 						ProvisioningStyle = Automatic;
 					};
 					9F8D928EC1FA1A31FD9F7D17 = {
@@ -284,6 +289,7 @@
 			files = (
 				F02F7D4CFF68B5CFD119D8A1 /* Assets.xcassets in Resources */,
 				51A29DF8869C99928ECB0AEC /* MacAssets.xcassets in Resources */,
+				9B8C08FC844E5F4835B52CAB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0667816C6D3F4A19A867DCC2 /* Assets.xcassets in Resources */,
+				C32138123ECB2913D29B2C9E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +400,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97Y5P84XPJ;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = NO;
@@ -404,6 +412,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.mac;
 				PRODUCT_NAME = "e-Fatura Simples";
 				SDKROOT = macosx;
@@ -418,6 +427,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 97Y5P84XPJ;
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = NO;
@@ -429,6 +439,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.mac;
 				PRODUCT_NAME = "e-Fatura Simples";
 				SDKROOT = macosx;
@@ -460,11 +471,14 @@
 		96258623CADD75A14B2A6E25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = iPhoneAppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97Y5P84XPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para ler o código QR das faturas.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -473,6 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples;
 				PRODUCT_NAME = EfacturaSimples;
 				SDKROOT = iphoneos;
@@ -484,11 +499,14 @@
 		D5EA91DF53270D06501445F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = iPhoneAppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97Y5P84XPJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para ler o código QR das faturas.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -497,6 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples;
 				PRODUCT_NAME = EfacturaSimples;
 				SDKROOT = iphoneos;
