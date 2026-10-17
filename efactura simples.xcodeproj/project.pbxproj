@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0667816C6D3F4A19A867DCC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5834D65BC891C36FA52E256A /* Assets.xcassets */; };
+		08CA0CE4F965E8CEB47C0F9B /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */; };
+		0B30F9D322BD44E3260E00B2 /* TaxProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BCF77D7051CDFBFC99790 /* TaxProfileView.swift */; };
+		0C7D43A2B55BFC80D834BC9C /* PortalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D394883406F48FBF4545C /* PortalClient.swift */; };
+		13D198EE26BE9F9CE931FC62 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D18B66CCF8ED5E286DA2B /* AppModel.swift */; };
+		1425474CB0D7C7564F525ECE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC23D3D554CAE0DFCBC9FA /* ProfileView.swift */; };
+		1797F2AA53FF47840223C7E1 /* EfacturaSimplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */; };
+		1CE67D10C9D105F1F7DFBA16 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EB9DCBCEB477A9E5B401E /* Platform.swift */; };
+		1FFE3909FD36E11F11E75FA2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC23D3D554CAE0DFCBC9FA /* ProfileView.swift */; };
+		2A26247D06745F56A81D9492 /* RecorderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59014F1A6DA90CEE8BD3C91E /* RecorderWebView.swift */; };
+		2C6CEE192EB6E72FEB4BF174 /* TaxRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */; };
+		2CC3CBDC271BDCB458D7F4CA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2D1FE2A3F827BF63DEA13 /* Models.swift */; };
+		35CDC3ED8084479967ED1C0A /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909E047E156D776D6252334 /* SummaryView.swift */; };
+		38883D5E63894F19A3E38C50 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EB9DCBCEB477A9E5B401E /* Platform.swift */; };
+		4592A0AB0ED512C99D58C2E1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F842EACA33A69B0861ABE0E /* Register.swift */; };
+		4F128BDD9540C396B74722BA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF4F0E3514D24F22D74BAB /* LoginView.swift */; };
+		4F88CB95B9FA92290FE17A4E /* InvoiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7E909EFD1AB766C16A09C /* InvoiceDetailView.swift */; };
+		51A29DF8869C99928ECB0AEC /* MacAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078952A20CAF096090C0AD1B /* MacAssets.xcassets */; };
+		53A067A5EAFFB4AEF3E6F0BE /* DeductionRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF28BA2117484F961E16D7 /* DeductionRing.swift */; };
+		571B15BEBA1CF913F675E998 /* InvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7618E653994097E6796842 /* InvoicesView.swift */; };
+		63161EE3F73007C286C8D882 /* PortalClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D394883406F48FBF4545C /* PortalClient.swift */; };
+		72D187883D1C260098DD6E5D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F842EACA33A69B0861ABE0E /* Register.swift */; };
+		79348AAFB7E03D6A26B40B10 /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C165E0FC012E482892B774 /* PendingView.swift */; };
+		79AEDABD83AE5DA550C2F786 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C88E48D08BAD30DC0A1E60 /* HTML.swift */; };
+		7BC0854B8D74EF01DD161ADD /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */; };
+		7E83D73DD1D8FF0DBDFFE994 /* MacRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEF84725E984AFFC760BC8 /* MacRootView.swift */; };
+		9C23B67BAAEE87AA79258741 /* InvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7618E653994097E6796842 /* InvoicesView.swift */; };
+		A0F913A042218C67E4D47ABF /* RegisterInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBAB46CCFD7FB0E54BD331E /* RegisterInvoiceView.swift */; };
+		A2BB200E5ED7E4E20DBBDB58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E75EDE21E49CD1B75102E /* Keychain.swift */; };
+		A50D8CB49FD4D2C2DA6599EB /* MacSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A1081AC87CBDE330C04BF /* MacSummaryView.swift */; };
+		A8734C5F811E0B622C9A683D /* MacInvoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0654E2C13515743E34ED400 /* MacInvoicesView.swift */; };
+		AC0BEF617CF1C7688BE4AD6C /* DeductionRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF28BA2117484F961E16D7 /* DeductionRing.swift */; };
+		B1FB244203C26F8A95BB2CAE /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664E75EDE21E49CD1B75102E /* Keychain.swift */; };
+		B30F71332B1E1C967503D416 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E909E047E156D776D6252334 /* SummaryView.swift */; };
+		BC595690AAF254590C4AC59F /* RecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7E5302DFB57F099F73F025 /* RecorderApp.swift */; };
+		BD95E0F1A2C2138E92253BDE /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C165E0FC012E482892B774 /* PendingView.swift */; };
+		BF01D5AABEBEF9D3A8BB06BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F2D1FE2A3F827BF63DEA13 /* Models.swift */; };
+		C0AA718C0DF819D26D03CC4E /* EfacturaSimplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */; };
+		CBA31BEFE89740B18B7A0147 /* TaxProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4BCF77D7051CDFBFC99790 /* TaxProfileView.swift */; };
+		CC9455798C6CF3A9B457A5F4 /* InvoiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7E909EFD1AB766C16A09C /* InvoiceDetailView.swift */; };
+		CE8C5B02EC9C9BF72D420789 /* TaxRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */; };
+		D6F0CACDD0A83320DBAD7DEF /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C88E48D08BAD30DC0A1E60 /* HTML.swift */; };
+		DA040378546CFD4A34E024E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF4F0E3514D24F22D74BAB /* LoginView.swift */; };
+		F02F7D4CFF68B5CFD119D8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5834D65BC891C36FA52E256A /* Assets.xcassets */; };
+		F1A38AFA9C802496317156FA /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30D18B66CCF8ED5E286DA2B /* AppModel.swift */; };
+		F6015A7E8FBFA59F2B6DAAA0 /* RegisterInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBAB46CCFD7FB0E54BD331E /* RegisterInvoiceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02DF4F0E3514D24F22D74BAB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		05FC23D3D554CAE0DFCBC9FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		078952A20CAF096090C0AD1B /* MacAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MacAssets.xcassets; sourceTree = "<group>"; };
+		0F7E5302DFB57F099F73F025 /* RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderApp.swift; sourceTree = "<group>"; };
+		130A1081AC87CBDE330C04BF /* MacSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacSummaryView.swift; sourceTree = "<group>"; };
+		17574C23B661749A2299C543 /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A9703C34E15CCBCD6F4BCA /* EfacturaSimplesMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EfacturaSimplesMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxRules.swift; sourceTree = "<group>"; };
+		42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfacturaSimplesApp.swift; sourceTree = "<group>"; };
+		57F2D1FE2A3F827BF63DEA13 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5834D65BC891C36FA52E256A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59014F1A6DA90CEE8BD3C91E /* RecorderWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderWebView.swift; sourceTree = "<group>"; };
+		5E7618E653994097E6796842 /* InvoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoicesView.swift; sourceTree = "<group>"; };
+		664E75EDE21E49CD1B75102E /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		6C4BCF77D7051CDFBFC99790 /* TaxProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxProfileView.swift; sourceTree = "<group>"; };
+		6F842EACA33A69B0861ABE0E /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		880D394883406F48FBF4545C /* PortalClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalClient.swift; sourceTree = "<group>"; };
+		89DF28BA2117484F961E16D7 /* DeductionRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeductionRing.swift; sourceTree = "<group>"; };
+		90C7E909EFD1AB766C16A09C /* InvoiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceDetailView.swift; sourceTree = "<group>"; };
+		92C165E0FC012E482892B774 /* PendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingView.swift; sourceTree = "<group>"; };
+		BD2EB9DCBCEB477A9E5B401E /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		D6C88E48D08BAD30DC0A1E60 /* HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
+		DDBAB46CCFD7FB0E54BD331E /* RegisterInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInvoiceView.swift; sourceTree = "<group>"; };
+		DFE20577CD64CFECD0C4C2F2 /* EfacturaSimples.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EfacturaSimples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E909E047E156D776D6252334 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		F0654E2C13515743E34ED400 /* MacInvoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacInvoicesView.swift; sourceTree = "<group>"; };
+		F30D18B66CCF8ED5E286DA2B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		FFAEF84725E984AFFC760BC8 /* MacRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacRootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3F619A85B6836405C83E624A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89DF28BA2117484F961E16D7 /* DeductionRing.swift */,
+				42EDE9136AB9D856548CB3F1 /* ExpensesView.swift */,
+				90C7E909EFD1AB766C16A09C /* InvoiceDetailView.swift */,
+				5E7618E653994097E6796842 /* InvoicesView.swift */,
+				02DF4F0E3514D24F22D74BAB /* LoginView.swift */,
+				92C165E0FC012E482892B774 /* PendingView.swift */,
+				BD2EB9DCBCEB477A9E5B401E /* Platform.swift */,
+				05FC23D3D554CAE0DFCBC9FA /* ProfileView.swift */,
+				DDBAB46CCFD7FB0E54BD331E /* RegisterInvoiceView.swift */,
+				E909E047E156D776D6252334 /* SummaryView.swift */,
+				6C4BCF77D7051CDFBFC99790 /* TaxProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		528093F4E6F3792B3049B866 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				078952A20CAF096090C0AD1B /* MacAssets.xcassets */,
+				F0654E2C13515743E34ED400 /* MacInvoicesView.swift */,
+				FFAEF84725E984AFFC760BC8 /* MacRootView.swift */,
+				130A1081AC87CBDE330C04BF /* MacSummaryView.swift */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		5B064F8DF2EEE76F53B91530 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				0F7E5302DFB57F099F73F025 /* RecorderApp.swift */,
+				59014F1A6DA90CEE8BD3C91E /* RecorderWebView.swift */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		6526AD70DBEC171FD7AD585D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5834D65BC891C36FA52E256A /* Assets.xcassets */,
+				56EB9F7B2247CFEAB62AAA06 /* EfacturaSimplesApp.swift */,
+				B98793228A3D9CC0FFB49175 /* Portal */,
+				9404876775D9D490CEC1630E /* Store */,
+				3F619A85B6836405C83E624A /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7AA662F596470F4914A2AD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE20577CD64CFECD0C4C2F2 /* EfacturaSimples.app */,
+				27A9703C34E15CCBCD6F4BCA /* EfacturaSimplesMac.app */,
+				17574C23B661749A2299C543 /* Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9404876775D9D490CEC1630E /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F30D18B66CCF8ED5E286DA2B /* AppModel.swift */,
+				664E75EDE21E49CD1B75102E /* Keychain.swift */,
+				37C8DFDB73D2A8EE0B541DE7 /* TaxRules.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B98793228A3D9CC0FFB49175 /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				D6C88E48D08BAD30DC0A1E60 /* HTML.swift */,
+				57F2D1FE2A3F827BF63DEA13 /* Models.swift */,
+				880D394883406F48FBF4545C /* PortalClient.swift */,
+				6F842EACA33A69B0861ABE0E /* Register.swift */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
+		FAAB262FA01748C5B91B6AEE = {
+			isa = PBXGroup;
+			children = (
+				6526AD70DBEC171FD7AD585D /* App */,
+				528093F4E6F3792B3049B866 /* Mac */,
+				5B064F8DF2EEE76F53B91530 /* Recorder */,
+				7AA662F596470F4914A2AD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66EE664BE3960317BB01A68A /* EfacturaSimples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621C5E0965200A957153E102 /* Build configuration list for PBXNativeTarget "EfacturaSimples" */;
+			buildPhases = (
+				344132BFCAB075CBAF1C998B /* Sources */,
+				CB063A2DC6C177CB0839E833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EfacturaSimples;
+			packageProductDependencies = (
+			);
+			productName = EfacturaSimples;
+			productReference = DFE20577CD64CFECD0C4C2F2 /* EfacturaSimples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8D928EC1FA1A31FD9F7D17 /* EfacturaSimplesMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9189E9E2F3B762941E6B8579 /* Build configuration list for PBXNativeTarget "EfacturaSimplesMac" */;
+			buildPhases = (
+				482183D264B646DCA97E8C21 /* Sources */,
+				B2CED37FB60965087C7FC69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EfacturaSimplesMac;
+			packageProductDependencies = (
+			);
+			productName = EfacturaSimplesMac;
+			productReference = 27A9703C34E15CCBCD6F4BCA /* EfacturaSimplesMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF09133354B62DD85D3D949 /* Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956A380B4ED5F0BCFE5EA31D /* Build configuration list for PBXNativeTarget "Recorder" */;
+			buildPhases = (
+				EC1B0039056272627A98EF8E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recorder;
+			packageProductDependencies = (
+			);
+			productName = Recorder;
+			productReference = 17574C23B661749A2299C543 /* Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A3F24432DFF942BE36D29F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					66EE664BE3960317BB01A68A = {
+						ProvisioningStyle = Automatic;
+					};
+					9F8D928EC1FA1A31FD9F7D17 = {
+						DevelopmentTeam = 97Y5P84XPJ;
+						ProvisioningStyle = Automatic;
+					};
+					EEF09133354B62DD85D3D949 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DDF7BC0BB3FF171690A1CC30 /* Build configuration list for PBXProject "efactura simples" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FAAB262FA01748C5B91B6AEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66EE664BE3960317BB01A68A /* EfacturaSimples */,
+				9F8D928EC1FA1A31FD9F7D17 /* EfacturaSimplesMac */,
+				EEF09133354B62DD85D3D949 /* Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2CED37FB60965087C7FC69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02F7D4CFF68B5CFD119D8A1 /* Assets.xcassets in Resources */,
+				51A29DF8869C99928ECB0AEC /* MacAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB063A2DC6C177CB0839E833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0667816C6D3F4A19A867DCC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344132BFCAB075CBAF1C998B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D198EE26BE9F9CE931FC62 /* AppModel.swift in Sources */,
+				53A067A5EAFFB4AEF3E6F0BE /* DeductionRing.swift in Sources */,
+				1797F2AA53FF47840223C7E1 /* EfacturaSimplesApp.swift in Sources */,
+				7BC0854B8D74EF01DD161ADD /* ExpensesView.swift in Sources */,
+				D6F0CACDD0A83320DBAD7DEF /* HTML.swift in Sources */,
+				CC9455798C6CF3A9B457A5F4 /* InvoiceDetailView.swift in Sources */,
+				9C23B67BAAEE87AA79258741 /* InvoicesView.swift in Sources */,
+				B1FB244203C26F8A95BB2CAE /* Keychain.swift in Sources */,
+				4F128BDD9540C396B74722BA /* LoginView.swift in Sources */,
+				2CC3CBDC271BDCB458D7F4CA /* Models.swift in Sources */,
+				79348AAFB7E03D6A26B40B10 /* PendingView.swift in Sources */,
+				1CE67D10C9D105F1F7DFBA16 /* Platform.swift in Sources */,
+				63161EE3F73007C286C8D882 /* PortalClient.swift in Sources */,
+				1425474CB0D7C7564F525ECE /* ProfileView.swift in Sources */,
+				4592A0AB0ED512C99D58C2E1 /* Register.swift in Sources */,
+				A0F913A042218C67E4D47ABF /* RegisterInvoiceView.swift in Sources */,
+				35CDC3ED8084479967ED1C0A /* SummaryView.swift in Sources */,
+				CBA31BEFE89740B18B7A0147 /* TaxProfileView.swift in Sources */,
+				CE8C5B02EC9C9BF72D420789 /* TaxRules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482183D264B646DCA97E8C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A38AFA9C802496317156FA /* AppModel.swift in Sources */,
+				AC0BEF617CF1C7688BE4AD6C /* DeductionRing.swift in Sources */,
+				C0AA718C0DF819D26D03CC4E /* EfacturaSimplesApp.swift in Sources */,
+				08CA0CE4F965E8CEB47C0F9B /* ExpensesView.swift in Sources */,
+				79AEDABD83AE5DA550C2F786 /* HTML.swift in Sources */,
+				4F88CB95B9FA92290FE17A4E /* InvoiceDetailView.swift in Sources */,
+				571B15BEBA1CF913F675E998 /* InvoicesView.swift in Sources */,
+				A2BB200E5ED7E4E20DBBDB58 /* Keychain.swift in Sources */,
+				DA040378546CFD4A34E024E9 /* LoginView.swift in Sources */,
+				A8734C5F811E0B622C9A683D /* MacInvoicesView.swift in Sources */,
+				7E83D73DD1D8FF0DBDFFE994 /* MacRootView.swift in Sources */,
+				A50D8CB49FD4D2C2DA6599EB /* MacSummaryView.swift in Sources */,
+				BF01D5AABEBEF9D3A8BB06BA /* Models.swift in Sources */,
+				BD95E0F1A2C2138E92253BDE /* PendingView.swift in Sources */,
+				38883D5E63894F19A3E38C50 /* Platform.swift in Sources */,
+				0C7D43A2B55BFC80D834BC9C /* PortalClient.swift in Sources */,
+				1FFE3909FD36E11F11E75FA2 /* ProfileView.swift in Sources */,
+				72D187883D1C260098DD6E5D /* Register.swift in Sources */,
+				F6015A7E8FBFA59F2B6DAAA0 /* RegisterInvoiceView.swift in Sources */,
+				B30F71332B1E1C967503D416 /* SummaryView.swift in Sources */,
+				0B30F9D322BD44E3260E00B2 /* TaxProfileView.swift in Sources */,
+				2C6CEE192EB6E72FEB4BF174 /* TaxRules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1B0039056272627A98EF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC595690AAF254590C4AC59F /* RecorderApp.swift in Sources */,
+				2A26247D06745F56A81D9492 /* RecorderWebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2905E5B16CEECB5B560E548F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Recorder;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.recorder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A115408374C8D6721B6AE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97Y5P84XPJ;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.mac;
+				PRODUCT_NAME = "e-Fatura Simples";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		895C419BA987529063BD3EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97Y5P84XPJ;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.mac;
+				PRODUCT_NAME = "e-Fatura Simples";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9478AC70E64024FA8EBF09C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Recorder;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples.recorder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96258623CADD75A14B2A6E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para ler o código QR das faturas.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples;
+				PRODUCT_NAME = EfacturaSimples;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D5EA91DF53270D06501445F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "e-Fatura Simples";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para ler o código QR das faturas.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MeshStudios.efacturasimples;
+				PRODUCT_NAME = EfacturaSimples;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D704C7E4F51937803562ED2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E956993FB676E76544D39AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621C5E0965200A957153E102 /* Build configuration list for PBXNativeTarget "EfacturaSimples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EA91DF53270D06501445F0 /* Debug */,
+				96258623CADD75A14B2A6E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9189E9E2F3B762941E6B8579 /* Build configuration list for PBXNativeTarget "EfacturaSimplesMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895C419BA987529063BD3EC1 /* Debug */,
+				4A115408374C8D6721B6AE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		956A380B4ED5F0BCFE5EA31D /* Build configuration list for PBXNativeTarget "Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2905E5B16CEECB5B560E548F /* Debug */,
+				9478AC70E64024FA8EBF09C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DDF7BC0BB3FF171690A1CC30 /* Build configuration list for PBXProject "efactura simples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E956993FB676E76544D39AB4 /* Debug */,
+				D704C7E4F51937803562ED2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A3F24432DFF942BE36D29F1 /* Project object */;
+}

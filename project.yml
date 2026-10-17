@@ -1,0 +1,63 @@
+name: efactura simples
+options:
+  bundleIdPrefix: MeshStudios
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  Recorder:
+    type: application
+    platform: macOS
+    sources:
+      - path: Recorder
+        excludes:
+          - "*.js"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: MeshStudios.efacturasimples.recorder
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Recorder
+        ENABLE_APP_SANDBOX: NO
+        ENABLE_HARDENED_RUNTIME: NO
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        SWIFT_VERSION: "5.0"
+  EfacturaSimples:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: MeshStudios.efacturasimples
+        PRODUCT_NAME: EfacturaSimples
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: e-Fatura Simples
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSCameraUsageDescription: "Para ler o código QR das faturas."
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+  EfacturaSimplesMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: App
+      - path: Mac
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: MeshStudios.efacturasimples.mac
+        PRODUCT_NAME: e-Fatura Simples
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: e-Fatura Simples
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_APP_SANDBOX: NO
+        ENABLE_HARDENED_RUNTIME: NO
+        CODE_SIGN_IDENTITY: "Apple Development"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 97Y5P84XPJ
+        SWIFT_VERSION: "5.0"
