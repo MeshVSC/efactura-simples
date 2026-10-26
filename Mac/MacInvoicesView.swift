@@ -82,7 +82,7 @@ struct MacInvoicesView: View {
         }
         // Sector filtering uses the portal's own filter, like the website.
         .sheet(isPresented: $registering) { RegisterInvoiceView() }
-        .task(id: "\(filter)-\(model.year)-\(model.invoices.count)") {
+        .task(id: "\(filter)-\(model.year)-\(model.dataVersion)") {
             guard filter != "TODOS" else { return }
             filteredByPortal = nil
             filteredByPortal = await model.invoices(category: filter)

@@ -12,6 +12,9 @@ final class AppModel: ObservableObject {
     @Published var loading = false
     @Published var restoring = false
     @Published var errorMessage: String?
+    /// Goes up after every successful refresh, so per-sector lists reload too
+    /// (a reclassified invoice must leave its old sector's list).
+    @Published var dataVersion = 0
     @Published var taxProfile = TaxProfile() {
         didSet { saveTaxProfile() }
     }
@@ -119,6 +122,7 @@ final class AppModel: ObservableObject {
             let (newSummary, newInvoices) = try await (s, i)
             summary = newSummary
             invoices = newInvoices.sorted { $0.dataEmissaoDocumento > $1.dataEmissaoDocumento }
+            dataVersion += 1
         } catch {
             errorMessage = error.localizedDescription
         }

@@ -88,6 +88,7 @@ struct CategoryInvoicesView: View {
         .navigationTitle(title)
         .inlineTitle()
         // Same query the portal runs when a sector box is clicked.
-        .task { if list == nil { list = await model.invoices(category: code) } }
+        // Reloads after every refresh, e.g. when an invoice here is reclassified.
+        .task(id: model.dataVersion) { list = await model.invoices(category: code) }
     }
 }
