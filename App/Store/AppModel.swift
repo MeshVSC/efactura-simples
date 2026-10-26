@@ -132,11 +132,23 @@ final class AppModel: ObservableObject {
         guard let client else { return [] }
         do {
             return try await client.invoices(year: year, category: category)
+                .filter { Self.belongs($0, to: category) }
                 .sorted { $0.dataEmissaoDocumento > $1.dataEmissaoDocumento }
         } catch {
             errorMessage = error.localizedDescription
             return []
         }
+    }
+
+    /// The portal's sector filters overlap (e.g. Despesas Gerais also returns Educação invoices).
+    /// Each invoice shows only under the sector it is classified in; Despesas Gerais keeps
+    /// the ones classified as Outros or not classified yet.
+    static func belongs(_ invoice: Invoice, to category: String) -> Bool {
+        let sector = invoice.actividadeEmitente
+        if category == "DGF" {
+            return sector == nil || sector == "C99" || Sector.named(sector) == nil
+        }
+        return sector == category
     }
 
     func registerForm() async throws -> RegisterForm {
